@@ -1,6 +1,6 @@
 # Test-Bot-BDFD 🤖  
 
-![Bot PFP](./pfp.png)  
+![Bot PFP](https://cdn.discordapp.com/avatars/941584115222859816/fe3d943021ffdc73c7dc0d4c0d4614fd.png?size=1024)  
 
 ## About 📝  
 **Test-Bot-BDFD** is a Discord bot made in **BDFD (bdscript)** — because apparently I was bored enough to code instead of sleeping.  
