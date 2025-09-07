@@ -8,7 +8,7 @@
     "usage": "/help",
     "beta": false,
     "nsfw": false,
-    "cooldown": 0
+    "cooldown": 10
   },
   {
     "trigger": "avatar",
@@ -17,8 +17,8 @@
     "description": "Oh, you wanna stare at yourself? Cute.",
     "longDescription": "Fetches and displays the profile picture of you or the specified user in full size.",
     "usage": "/avatar [user]",
-    "beta": false,
+    "beta": true,
     "nsfw": false,
-    "cooldown": 0
+    "cooldown": 60
   }
 ]
