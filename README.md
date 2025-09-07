@@ -29,7 +29,7 @@ If for some reason you actually want this bot in your server:
 BDFD sucks. Seriously. If you want to do real bot stuff, check out **[ForgeScript](https://docs.botforge.org)**.  
 
 ## Legal 📜  
-- [Terms of Service](./TOS.md)  
+- [Terms of Service](./ToS.md)  
 - [Privacy Policy](./PRIVACY.md)  
 
 ---
