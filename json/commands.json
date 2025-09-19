@@ -14,8 +14,16 @@
     "summarize"
   ],
   "categories": [
-    "Utility",
-    "AI"
+    {
+      "category": "Utility",
+      "description": "Basic everyday stuff like avatars, help, and more.",
+      "emoji": "📦"
+    },
+    {
+      "category": "AI",
+      "description": "AI-powered fun — ships, what-ifs, summaries, and more.",
+      "emoji": "🤖"
+    }
   ],
   "commands": [
     {
