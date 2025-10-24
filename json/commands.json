@@ -1,15 +1,22 @@
 {
   "prefixed": [
-    "help"
+    "help",
+    "urban"
   ],
   "slash": [
-    "help"
+    "help",
+    "urban"
   ],
   "categories": [
     {
       "category": "Utility",
-      "description": "Basic everyday stuff like avatars, help, and more.",
-      "emoji": "📦"
+      "description": "📦 Basic everyday stuff like help and info commands. You know, the boring but useful ones.",
+      "emoji": "🧰"
+    },
+    {
+      "category": "Fun",
+      "description": "🎉 Useless but entertaining chaos. Perfect for wasting time with friends.",
+      "emoji": "😜"
     }
   ],
   "commands": {
@@ -24,6 +31,22 @@
             ""
           ],
           "cooldown": 10
+        },
+        "beta": false,
+        "nsfw": false
+      }
+    ],
+    "Fun": [
+      {
+        "trigger": "urban",
+        "slash": "urban",
+        "meta": {
+          "shortDescription": "📚 Urban Dictionary, but sassier.",
+          "longDescription": "Fetches the top definition for a word or phrase from Urban Dictionary and shows it in a fancy embed. Perfect for when someone says something you *pretend* to understand.",
+          "usage": [
+            "/urban <word>"
+          ],
+          "cooldown": 30
         },
         "beta": false,
         "nsfw": false
