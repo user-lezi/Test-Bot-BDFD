@@ -1,28 +1,15 @@
 {
   "prefixed": [
-    "help",
-    "avatar",
-    "ship",
-    "whatif",
-    "summarize"
+    "help"
   ],
   "slash": [
-    "help",
-    "avatar",
-    "ship",
-    "whatif",
-    "summarize"
+    "help"
   ],
   "categories": [
     {
       "category": "Utility",
       "description": "Basic everyday stuff like avatars, help, and more.",
       "emoji": "📦"
-    },
-    {
-      "category": "AI",
-      "description": "AI-powered fun — ships, what-ifs, summaries, and more.",
-      "emoji": "🤖"
     }
   ],
   "commands": {
@@ -39,66 +26,6 @@
           "cooldown": 10
         },
         "beta": false,
-        "nsfw": false
-      },
-      {
-        "trigger": "avatar",
-        "slash": "avatar",
-        "meta": {
-          "shortDescription": "👀 Oh, you wanna stare at yourself? Cute.",
-          "longDescription": "Fetches and displays the profile picture of you or the specified user in full size.",
-          "usage": [
-            "",
-            "@user"
-          ],
-          "cooldown": 60
-        },
-        "beta": true,
-        "nsfw": false
-      }
-    ],
-    "AI": [
-      {
-        "trigger": "ship",
-        "slash": "ship",
-        "meta": {
-          "shortDescription": "👀 Smash or pass vibes, AI edition.",
-          "longDescription": "Generates a funny compatibility rating or mini-story between two users. Great for shipping wars in your server.",
-          "usage": [
-            "@user1",
-            "@user1 @user2"
-          ],
-          "cooldown": 60
-        },
-        "beta": true,
-        "nsfw": false
-      },
-      {
-        "trigger": "whatif",
-        "slash": "whatif",
-        "meta": {
-          "shortDescription": "🤔 Let’s break reality for a sec.",
-          "longDescription": "Explores a hypothetical scenario using AI. Example: `/whatif cats ruled the world` → expect chaos, memes, and deep thoughts.",
-          "usage": [
-            "<input>"
-          ],
-          "cooldown": 60
-        },
-        "beta": true,
-        "nsfw": false
-      },
-      {
-        "trigger": "summarize",
-        "slash": "summarize",
-        "meta": {
-          "shortDescription": "✂️ Too long; didn’t read? Fixed.",
-          "longDescription": "Summarizes long text into something short, casual, and readable. Perfect for when someone drops an essay in chat.",
-          "usage": [
-            "<text>"
-          ],
-          "cooldown": 60
-        },
-        "beta": true,
         "nsfw": false
       }
     ]
