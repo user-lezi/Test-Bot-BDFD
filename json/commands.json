@@ -1,11 +1,13 @@
 {
   "prefixed": [
     "help",
-    "urban"
+    "urban",
+    "botinfo"
   ],
   "slash": [
     "help",
-    "urban"
+    "urban",
+    "botinfo"
   ],
   "categories": [{
     "category": "Utility",
