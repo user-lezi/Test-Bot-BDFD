@@ -7,50 +7,58 @@
     "help",
     "urban"
   ],
-  "categories": [
-    {
-      "category": "Utility",
-      "description": "📦 Basic everyday stuff like help and info commands. You know, the boring but useful ones.",
-      "emoji": "🧰"
-    },
+  "categories": [{
+    "category": "Utility",
+    "description": "📦 Basic everyday stuff like help and info commands. You know, the boring but useful ones.",
+    "emoji": "🧰"
+  },
     {
       "category": "Fun",
       "description": "🎉 Useless but entertaining chaos. Perfect for wasting time with friends.",
       "emoji": "😜"
-    }
-  ],
+    }],
   "commands": {
-    "Utility": [
+    "Utility": [{
+      "trigger": "help",
+      "slash": "help",
+      "meta": {
+        "shortDescription": "😵‍💫 You seriously need help already? Fine.",
+        "longDescription": "Displays a list of all available commands along with their descriptions, so you can easily understand what the bot can do and how to use each command.",
+        "usage": [
+          ""
+        ],
+        "cooldown": 10
+      },
+      "beta": false,
+      "nsfw": false
+    },
       {
-        "trigger": "help",
-        "slash": "help",
+        "trigger": "botinfo",
+        "slash": "botinfo",
         "meta": {
-          "shortDescription": "😵‍💫 You seriously need help already? Fine.",
-          "longDescription": "Displays a list of all available commands along with their descriptions, so you can easily understand what the bot can do and how to use each command.",
+          "shortDescription": "🤖 Wanna know about me? Of course you do.",
+          "longDescription": "Displays information about the bot — uptime, ping, server count, and more. Basically, everything you didn’t ask for but I’ll brag about anyway.",
           "usage": [
-            ""
+            "/botinfo"
           ],
-          "cooldown": 10
+          "cooldown": 15
         },
         "beta": false,
         "nsfw": false
-      }
-    ],
-    "Fun": [
-      {
-        "trigger": "urban",
-        "slash": "urban",
-        "meta": {
-          "shortDescription": "📚 Urban Dictionary, but sassier.",
-          "longDescription": "Fetches the top definition for a word or phrase from Urban Dictionary and shows it in a fancy embed. Perfect for when someone says something you *pretend* to understand.",
-          "usage": [
-            "/urban <word>"
-          ],
-          "cooldown": 30
-        },
-        "beta": false,
-        "nsfw": false
-      }
-    ]
+      }],
+    "Fun": [{
+      "trigger": "urban",
+      "slash": "urban",
+      "meta": {
+        "shortDescription": "📚 Urban Dictionary, but sassier.",
+        "longDescription": "Fetches the top definition for a word or phrase from Urban Dictionary and shows it in a fancy embed. Perfect for when someone says something you *pretend* to understand.",
+        "usage": [
+          "/urban <word>"
+        ],
+        "cooldown": 30
+      },
+      "beta": false,
+      "nsfw": false
+    }]
   }
 }
