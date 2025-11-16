@@ -1,6 +1,6 @@
 # Test-Bot-BDFD 🤖  
 
-![Bot PFP](https://cdn.discordapp.com/avatars/941584115222859816/fe3d943021ffdc73c7dc0d4c0d4614fd.png?size=1024)  
+![Bot PFP](https://cdn.discordapp.com/avatars/941584115222859816/1f8bbdbe9168fde63769540e108a603f.png?size=1024)  
 
 ## About 📝  
 **Test-Bot-BDFD** is a Discord bot made in **BDFD (bdscript)** — because apparently I was bored enough to code instead of sleeping.  
@@ -23,7 +23,7 @@ Hit up **Lezi** on Discord:
 
 ## Invite 🔗  
 If for some reason you actually want this bot in your server:  
-[Invite Link](https://discord.com/oauth2/authorize?client_id=941584115222859816&scope=bot%20applications.commands&permissions=379968)  
+[Invite Link](https://discord.com/oauth2/authorize?client_id=941584115222859816)  
 
 ## Note ⚠️  
 BDFD sucks. Seriously. If you want to do real bot stuff, check out **[ForgeScript](https://docs.botforge.org)**.  
