@@ -1,0 +1,124 @@
+[
+  {
+    "functions": ["$defer"],
+    "clue": "Call this at the start of an interaction to buy more time for processing."
+  },
+  {
+    "functions": ["$httpGet",
+      "$httpPost"],
+    "clue": "Fetch remote data over HTTP."
+  },
+  {
+    "functions": ["$jsonParse"],
+    "clue": "Turn a JSON string into usable data inside BDFD."
+  },
+  {
+    "functions": ["$textSplit"],
+    "clue": "Split a string into parts using a separator and access pieces."
+  },
+  {
+    "functions": ["$replaceText"],
+    "clue": "Find and replace substrings inside text."
+  },
+  {
+    "functions": ["$random"],
+    "clue": "Generate a random number or pick a random element from a list."
+  },
+  {
+    "functions": ["$onlyIf"],
+    "clue": "A conditional gate — only proceed if the test passes (common for validation)."
+  },
+  {
+    "functions": ["$setUserVar",
+      "$setVar"],
+    "clue": "Store data tied to a user (or a global var) for later use."
+  },
+  {
+    "functions": ["$getUserVar",
+      "$getVar"],
+    "clue": "Retrieve previously saved variables (user-scoped or global)."
+  },
+  {
+    "functions": ["$reply"],
+    "clue": "Send a reply to a message (simple output function)."
+  },
+  {
+    "functions": ["$title",
+      "$description"],
+    "clue": "Set the embed title or body text for prettier messages."
+  },
+  {
+    "functions": ["$thumbnail",
+      "$image"],
+    "clue": "Attach an image to an embed."
+  },
+  {
+    "functions": ["$ping"],
+    "clue": "Check bot latency — the classic 'how laggy am I' command."
+  },
+  {
+    "functions": ["$serverCount"],
+    "clue": "Return how many servers (guilds) the bot is currently in."
+  },
+  {
+    "functions": ["$allMembersCount"],
+    "clue": "Get the total member count across the bot or guild (aggregate number)."
+  },
+  {
+    "functions": ["$username", "$nickname", "$displayName"],
+    "clue": "Get a user's visible name"
+  },
+  {
+    "functions": ["$cropText"],
+    "clue": "Shorten long outputs so they don't overflow embeds."
+  },
+  {
+    "functions": ["$json"],
+    "clue": "Pull a specific key from a parsed JSON object (faster lookup)."
+  },
+  {
+    "functions": ["$httpStatus"],
+    "clue": "Check the HTTP response code after making a request."
+  },
+  {
+    "functions": ["$getMessage"],
+    "clue": "Fetch message content from a channel by ID."
+  },
+  {
+    "functions": ["$globalCooldown",
+      "$cooldown"],
+    "clue": "Prevent spam by enforcing a cooldown across users or per command."
+  },
+  {
+    "functions": ["$ephemeral"],
+    "clue": "Send a private ephemeral reply for slash command interactions."
+  },
+  {
+    "functions": ["$jsonArrayCount"],
+    "clue": "Count elements in an array inside parsed JSON."
+  },
+  {
+    "functions": ["$url"],
+    "clue": "Make text safe for URLs (encoding) or produce a URL link."
+  },
+  {
+    "functions": ["$getVar"],
+    "clue": "Read a global bot variable."
+  },
+  {
+    "functions": ["$isBot"],
+    "clue": "Checks whether the target is a bot or a human — used for filters."
+  },
+  {
+    "functions": ["$channelCount"],
+    "clue": "Get the number of channels of a specific type (text/voice) in a guild."
+  },
+  {
+    "functions": ["$serverOwner"],
+    "clue": "Return the user ID of the guild owner (useful for dev-only commands)."
+  },
+  {
+    "functions": ["$creationDate"],
+    "clue": "Get the creation timestamp (often used with <t:...> formatting)."
+  }
+]
