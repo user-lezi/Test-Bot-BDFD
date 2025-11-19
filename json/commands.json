@@ -2,12 +2,14 @@
   "prefixed": [
     "help",
     "urban",
-    "botinfo"
+    "botinfo",
+    "guess"
   ],
   "slash": [
     "help",
     "urban",
-    "botinfo"
+    "botinfo",
+    "guess"
   ],
   "categories": [{
     "category": "Utility",
@@ -18,6 +20,11 @@
       "category": "Fun",
       "description": "🎉 Useless but entertaining chaos. Perfect for wasting time with friends.",
       "emoji": "😜"
+    },
+    {
+      "category": "Games",
+      "description": "🎮 Mini-games you’ll probably get addicted to, then blame the bot for losing.",
+      "emoji": "🕹️"
     }],
   "commands": {
     "Utility": [{
@@ -60,6 +67,20 @@
         "cooldown": 30
       },
       "beta": false,
+      "nsfw": false
+    }],
+    "Games": [{
+      "trigger": "guess",
+      "slash": "guess",
+      "meta": {
+        "shortDescription": "🔍 Guess the BDFD function from a clue!",
+        "longDescription": "A mini-game where you get a clue and must guess the correct BDFD function. Great for testing your BDFD knowledge and earning bragging rights.",
+        "usage": [
+          "/guess"
+        ],
+        "cooldown": 60
+      },
+      "beta": true,
       "nsfw": false
     }]
   }
