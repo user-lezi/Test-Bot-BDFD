@@ -3,13 +3,17 @@
     "help",
     "urban",
     "botinfo",
-    "guess"
+    "guess",
+    "coins",
+    "leaderboard"
   ],
   "slash": [
     "help",
     "urban",
     "botinfo",
-    "guess"
+    "guess",
+    "coins",
+    "leaderboard"
   ],
   "categories": [{
     "category": "Utility",
@@ -82,6 +86,34 @@
       },
       "beta": true,
       "nsfw": false
-    }]
+    },
+      {
+        "trigger": "coins",
+        "slash": "coins",
+        "meta": {
+          "shortDescription": "💰 Check how rich (or broke) you are.",
+          "longDescription": "Shows your current coin balance. Great for flexing, crying, or both. Coins are earned by playing bot minigames like Guess The Function.",
+          "usage": [
+            "/coins"
+          ],
+          "cooldown": 5
+        },
+        "beta": false,
+        "nsfw": false
+      },
+      {
+        "trigger": "leaderboard",
+        "slash": "leaderboard",
+        "meta": {
+          "shortDescription": "🏆 See the richest people.",
+          "longDescription": "Displays the global coin leaderboard. Rankings are based on total coins earned from all bot minigames like Guess The Function. Try climbing to the top, if your skills (or luck) allow.",
+          "usage": [
+            "/leaderboard"
+          ],
+          "cooldown": 10
+        },
+        "beta": false,
+        "nsfw": false
+      }]
   }
 }
