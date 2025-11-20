@@ -4,6 +4,7 @@
     "urban",
     "botinfo",
     "guess",
+    "scramble",
     "coins",
     "leaderboard"
   ],
@@ -12,6 +13,7 @@
     "urban",
     "botinfo",
     "guess",
+    "scramble",
     "coins",
     "leaderboard"
   ],
@@ -87,6 +89,21 @@
       "beta": true,
       "nsfw": false
     },
+      {
+        "trigger": "scramble",
+        "slash": "scramble",
+        "category": "games",
+        "meta": {
+          "shortDescription": "🔀 Unscramble a BDFD function name.",
+          "longDescription": "Shows a scrambled BDFD function from the official function tag list, and you have to guess which function it is.",
+          "usage": [
+            "/scramble"
+          ],
+          "cooldown": 60
+        },
+        "beta": true,
+        "nsfw": false
+      },
       {
         "trigger": "coins",
         "slash": "coins",
