@@ -5,8 +5,8 @@
     "botinfo",
     "guess",
     "scramble",
-    "coins",
-    "leaderboard"
+    "leaderboard",
+    "profile"
   ],
   "slash": [
     "help",
@@ -14,8 +14,8 @@
     "botinfo",
     "guess",
     "scramble",
-    "coins",
-    "leaderboard"
+    "leaderboard",
+    "profile"
   ],
   "categories": [{
     "category": "Utility",
@@ -40,7 +40,7 @@
         "shortDescription": "😵‍💫 You seriously need help already? Fine.",
         "longDescription": "Displays a list of all available commands along with their descriptions, so you can easily understand what the bot can do and how to use each command.",
         "usage": [
-          ""
+          "/help"
         ],
         "cooldown": 10
       },
@@ -59,6 +59,20 @@
           "cooldown": 15
         },
         "beta": false,
+        "nsfw": false
+      },
+      {
+        "trigger": "profile",
+        "slash": "profile",
+        "meta": {
+          "shortDescription": "📊 Check your profile — stats, progress, and more.",
+          "longDescription": "Shows your full profile including game statistics, coins, streaks, wins/losses, and any other bot-related data you've accumulated.",
+          "usage": [
+            "/profile"
+          ],
+          "cooldown": 20
+        },
+        "beta": true,
         "nsfw": false
       }],
     "Fun": [{
@@ -86,7 +100,7 @@
         ],
         "cooldown": 60
       },
-      "beta": true,
+      "beta": false,
       "nsfw": false
     },
       {
@@ -100,20 +114,6 @@
             "/scramble"
           ],
           "cooldown": 60
-        },
-        "beta": true,
-        "nsfw": false
-      },
-      {
-        "trigger": "coins",
-        "slash": "coins",
-        "meta": {
-          "shortDescription": "💰 Check how rich (or broke) you are.",
-          "longDescription": "Shows your current coin balance. Great for flexing, crying, or both. Coins are earned by playing bot minigames like Guess The Function.",
-          "usage": [
-            "/coins"
-          ],
-          "cooldown": 5
         },
         "beta": false,
         "nsfw": false
