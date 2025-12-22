@@ -1,124 +1,268 @@
 [
   {
-    "functions": ["$defer"],
-    "clue": "Call this at the start of an interaction to buy more time for processing."
+    "functions":[
+      "$defer"
+    ],
+    "clue":"Call this at the start of an interaction to buy more time for processing."
   },
   {
-    "functions": ["$httpGet",
-      "$httpPost"],
-    "clue": "Fetch remote data over HTTP."
+    "functions":[
+      "$httpGet",
+      "$httpPost"
+    ],
+    "clue":"Fetch remote data over HTTP."
   },
   {
-    "functions": ["$jsonParse"],
-    "clue": "Turn a JSON string into usable data inside BDFD."
+    "functions":[
+      "$jsonParse"
+    ],
+    "clue":"Turn a JSON string into usable data inside BDFD."
   },
   {
-    "functions": ["$textSplit"],
-    "clue": "Split a string into parts using a separator and access pieces."
+    "functions":[
+      "$textSplit"
+    ],
+    "clue":"Split a string into parts using a separator."
   },
   {
-    "functions": ["$replaceText"],
-    "clue": "Find and replace substrings inside text."
+    "functions":[
+      "$replaceText"
+    ],
+    "clue":"Find and replace substrings inside text."
   },
   {
-    "functions": ["$random"],
-    "clue": "Generate a random number or pick a random element from a list."
+    "functions":[
+      "$random"
+    ],
+    "clue":"Generate a random number."
   },
   {
-    "functions": ["$onlyIf"],
-    "clue": "A conditional gate — only proceed if the test passes (common for validation)."
+    "functions":[
+      "$onlyIf"
+    ],
+    "clue":"A conditional gate — only proceed if the test passes (common for validation)."
   },
   {
-    "functions": ["$setUserVar",
-      "$setVar"],
-    "clue": "Store data tied to a user (or a global var) for later use."
+    "functions":[
+      "$setUserVar",
+      "$setVar"
+    ],
+    "clue":"Store data tied to a user (or a global var) for later use."
   },
   {
-    "functions": ["$getUserVar",
-      "$getVar"],
-    "clue": "Retrieve previously saved variables (user-scoped or global)."
+    "functions":[
+      "$getUserVar",
+      "$getVar"
+    ],
+    "clue":"Retrieve previously saved variables (user-scoped or global)."
   },
   {
-    "functions": ["$reply"],
-    "clue": "Send a reply to a message (simple output function)."
+    "functions":[
+      "$reply"
+    ],
+    "clue":"Send a reply to a message."
   },
   {
-    "functions": ["$title",
-      "$description"],
-    "clue": "Set the embed title or body text for prettier messages."
+    "functions":[
+      "$title",
+      "$description",
+      "$footer",
+      "$addField",
+      "$author"
+    ],
+    "clue":"Set the embed title or body text for prettier messages."
   },
   {
-    "functions": ["$thumbnail",
-      "$image"],
-    "clue": "Attach an image to an embed."
+    "functions":[
+      "$thumbnail",
+      "$image"
+    ],
+    "clue":"Attach an image to an embed."
   },
   {
-    "functions": ["$ping"],
-    "clue": "Check bot latency — the classic 'how laggy am I' command."
+    "functions":[
+      "$ping"
+    ],
+    "clue":"Check bot latency — the classic 'how laggy am I' command."
   },
   {
-    "functions": ["$serverCount"],
-    "clue": "Return how many servers (guilds) the bot is currently in."
+    "functions":[
+      "$serverCount"
+    ],
+    "clue":"Return how many servers (guilds) the bot is currently in."
   },
   {
-    "functions": ["$allMembersCount"],
-    "clue": "Get the total member count across the bot or guild (aggregate number)."
+    "functions":[
+      "$allMembersCount"
+    ],
+    "clue":"Get the total member count across the bot or guild (aggregate number)."
   },
   {
-    "functions": ["$username", "$nickname", "$displayName"],
-    "clue": "Get a user's visible name"
+    "functions":[
+      "$username",
+      "$nickname",
+      "$displayName"
+    ],
+    "clue":"Get a user's visible name"
   },
   {
-    "functions": ["$cropText"],
-    "clue": "Shorten long outputs so they don't overflow embeds."
+    "functions":[
+      "$cropText"
+    ],
+    "clue":"Shorten long outputs so they don't overflow embeds."
   },
   {
-    "functions": ["$json"],
-    "clue": "Pull a specific key from a parsed JSON object (faster lookup)."
+    "functions":[
+      "$json"
+    ],
+    "clue":"Pull a specific key from a parsed JSON object (faster lookup)."
   },
   {
-    "functions": ["$httpStatus"],
-    "clue": "Check the HTTP response code after making a request."
+    "functions":[
+      "$httpStatus"
+    ],
+    "clue":"Check the HTTP response code after making a request."
   },
   {
-    "functions": ["$getMessage"],
-    "clue": "Fetch message content from a channel by ID."
+    "functions":[
+      "$getMessage"
+    ],
+    "clue":"Fetch message content from a channel by ID."
   },
   {
-    "functions": ["$globalCooldown",
-      "$cooldown"],
-    "clue": "Prevent spam by enforcing a cooldown across users or per command."
+    "functions":[
+      "$globalCooldown",
+      "$cooldown",
+      "$serverCooldown"
+    ],
+    "clue":"Prevent spam by enforcing a cooldown across users, server or per command."
   },
   {
-    "functions": ["$ephemeral"],
-    "clue": "Send a private ephemeral reply for slash command interactions."
+    "functions":[
+      "$ephemeral"
+    ],
+    "clue":"Send a private ephemeral reply for slash command interactions."
   },
   {
-    "functions": ["$jsonArrayCount"],
-    "clue": "Count elements in an array inside parsed JSON."
+    "functions":[
+      "$jsonArrayCount"
+    ],
+    "clue":"Count elements in an array inside parsed JSON."
   },
   {
-    "functions": ["$url"],
-    "clue": "Make text safe for URLs (encoding) or produce a URL link."
+    "functions":[
+      "$url"
+    ],
+    "clue":"Make text safe for URLs (encoding) or produce a URL link."
   },
   {
-    "functions": ["$getVar"],
-    "clue": "Read a global bot variable."
+    "functions":[
+      "$getVar"
+    ],
+    "clue":"Read a global bot variable."
   },
   {
-    "functions": ["$isBot"],
-    "clue": "Checks whether the target is a bot or a human — used for filters."
+    "functions":[
+      "$isBot"
+    ],
+    "clue":"Checks whether the target is a bot or a human — used for filters."
   },
   {
-    "functions": ["$channelCount"],
-    "clue": "Get the number of channels of a specific type (text/voice) in a guild."
+    "functions":[
+      "$channelCount"
+    ],
+    "clue":"Get the number of channels of a specific type (text/voice) in a guild."
   },
   {
-    "functions": ["$serverOwner"],
-    "clue": "Return the user ID of the guild owner (useful for dev-only commands)."
+    "functions":[
+      "$serverOwner"
+    ],
+    "clue":"Return the user ID of the guild owner (useful for dev-only commands)."
   },
   {
-    "functions": ["$creationDate"],
-    "clue": "Get the creation timestamp (often used with <t:...> formatting)."
+    "functions":[
+      "$creationDate"
+    ],
+    "clue":"Get the creation timestamp (often used with <t:...> formatting)."
+  },
+  {
+    "functions":[
+      "$addReactions"
+    ],
+    "clue":"Add one or more reactions to a message automatically."
+  },
+  {
+    "functions":[
+      "$eval"
+    ],
+    "clue":"Evaluate raw BDFD code dynamically — powerful but dangerous if misused."
+  },
+  {
+    "functions":[
+      "$channelID"
+    ],
+    "clue":"Get the ID of the current channel."
+  },
+  {
+    "functions":[
+      "$botID"
+    ],
+    "clue":"Return the bot’s own user ID."
+  },
+  {
+    "functions":[
+      "$banID",
+      "$ban"
+    ],
+    "clue":"Ban a user from the server (with or without fetching the member)."
+  },
+  {
+    "functions":[
+      "$kick",
+      "$kickMention"
+    ],
+    "clue":"Kick a member from the server."
+  },
+  {
+    "functions":[
+      "$max",
+      "$min"
+    ],
+    "clue":"Return the highest or lowest value from a set of numbers."
+  },
+  {
+    "functions":[
+      "$calculate",
+      "$sum",
+      "$sub",
+      "$multi",
+      "$divide",
+      "$modulo"
+    ],
+    "clue":"Perform basic math operations inside BDFD."
+  },
+  {
+    "functions":[
+      "$linesCount"
+    ],
+    "clue":"Count how many lines exist in a block of text."
+  },
+  {
+    "functions":[
+      "$repeatMessage"
+    ],
+    "clue":"Repeat a message multiple times (spam responsibly)."
+  },
+  {
+    "functions":[
+      "$deleteIn"
+    ],
+    "clue":"Delete a message after a specified delay."
+  },
+  {
+    "functions":[
+      "$replyIn"
+    ],
+    "clue":"Send a delayed reply after a set time (basically $delay)."
   }
 ]
