@@ -7,7 +7,8 @@
     "scramble",
     "leaderboard",
     "profile",
-    "daily"
+    "daily",
+    "cf",
   ],
   "slash": [
     "help",
@@ -17,7 +18,8 @@
     "scramble",
     "leaderboard",
     "profile",
-    "daily"
+    "daily",
+    "coinflip"
   ],
   "categories": [
     {
@@ -115,6 +117,18 @@
           "longDescription": "Shows a scrambled BDFD function from the official function tag list, and you have to guess which function it is.",
           "usage": ["/scramble"],
           "cooldown": 60
+        },
+        "beta": false,
+        "nsfw": false
+      },
+      {
+        "trigger": "cf",
+        "slash": "coinflip",
+        "meta": {
+          "shortDescription": "🪙 Flip multiple fair coins. More coins = better payout.",
+          "longDescription": "Flip multiple unbiased coins at once. Win if the majority matches your chosen side. Using more coins increases the payout multiplier, starting from 0.8×.",
+          "usage": ["/coinflip <coins> <side:heads/tails> <bet>"],
+          "cooldown": 15
         },
         "beta": false,
         "nsfw": false
