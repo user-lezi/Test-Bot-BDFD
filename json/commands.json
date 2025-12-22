@@ -137,9 +137,9 @@
         "trigger": "leaderboard",
         "slash": "leaderboard",
         "meta": {
-          "shortDescription": "🏆 See the richest people.",
-          "longDescription": "Displays the global coin leaderboard. Rankings are based on total coins earned from all bot minigames like Guess The Function. Try climbing to the top, if your skills (or luck) allow.",
-          "usage": ["/leaderboard"],
+          "shortDescription": "🏆 Flex the rankings — pick your poison.",
+          "longDescription": "Displays different global leaderboards based on the selected type. Compare players by total coins, total daily claims, or longest daily streaks.",
+          "usage": ["/leaderboard <type:coins/daily-days/daily-streak>"],
           "cooldown": 10
         },
         "beta": false,
