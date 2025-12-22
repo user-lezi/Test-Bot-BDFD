@@ -118,18 +118,6 @@
         },
         "beta": false,
         "nsfw": false
-      },
-      {
-        "trigger": "leaderboard",
-        "slash": "leaderboard",
-        "meta": {
-          "shortDescription": "🏆 See the richest people.",
-          "longDescription": "Displays the global coin leaderboard. Rankings are based on total coins earned from all bot minigames like Guess The Function. Try climbing to the top, if your skills (or luck) allow.",
-          "usage": ["/leaderboard"],
-          "cooldown": 10
-        },
-        "beta": false,
-        "nsfw": false
       }
     ],
     "Economy": [
@@ -141,6 +129,18 @@
           "longDescription": "Claim your daily coin reward. Come back every 24 hours to maintain your streak and stack that virtual cash.",
           "usage": ["/daily"],
           "cooldown": 86400
+        },
+        "beta": false,
+        "nsfw": false
+      },
+      {
+        "trigger": "leaderboard",
+        "slash": "leaderboard",
+        "meta": {
+          "shortDescription": "🏆 See the richest people.",
+          "longDescription": "Displays the global coin leaderboard. Rankings are based on total coins earned from all bot minigames like Guess The Function. Try climbing to the top, if your skills (or luck) allow.",
+          "usage": ["/leaderboard"],
+          "cooldown": 10
         },
         "beta": false,
         "nsfw": false
