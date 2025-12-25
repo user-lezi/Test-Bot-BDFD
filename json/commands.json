@@ -5,7 +5,7 @@
     "botinfo",
     "guess",
     "scramble",
-    "leaderboard",
+    "lb",
     "profile",
     "daily",
     "cf",
@@ -162,7 +162,7 @@
         "nsfw": false
       },
       {
-        "trigger": "leaderboard",
+        "trigger": "lb",
         "slash": "leaderboard",
         "meta": {
           "shortDescription": "🏆 Flex the rankings — pick your poison.",
