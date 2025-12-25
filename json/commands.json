@@ -8,7 +8,8 @@
     "leaderboard",
     "profile",
     "daily",
-    "cf"
+    "cf",
+    "ball"
   ],
   "slash": [
     "help",
@@ -19,7 +20,8 @@
     "leaderboard",
     "profile",
     "daily",
-    "coinflip"
+    "coinflip",
+    "hall-of-frame"
   ],
   "categories": [
     {
@@ -93,6 +95,18 @@
           "cooldown": 30
         },
         "beta": false,
+        "nsfw": false
+      },
+      {
+        "trigger": "hall",
+        "slash": "hall-of-frame",
+        "meta": {
+          "shortDescription": "🖼️ The bot’s core memories. Touch grass responsibly.",
+          "longDescription": "Displays a rotating gallery of iconic moments, inside jokes, legendary users, cursed screenshots, and unforgettable bot memories. Basically a museum nobody asked for.",
+          "usage": ["/hall-of-frame"],
+          "cooldown": 20
+        },
+        "beta": true,
         "nsfw": false
       }
     ],
