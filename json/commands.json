@@ -9,7 +9,7 @@
     "profile",
     "daily",
     "cf",
-    "ball"
+    "hall"
   ],
   "slash": [
     "help",
@@ -26,22 +26,22 @@
   "categories": [
     {
       "category": "Utility",
-      "description": "📦 Basic everyday stuff like help and info commands. You know, the boring but useful ones.",
+      "description": "The essential commands. Not flashy, but you would be lost without them.",
       "emoji": "🧰"
     },
     {
       "category": "Fun",
-      "description": "🎉 Useless but entertaining chaos. Perfect for wasting time with friends.",
+      "description": "Pure chaos. Zero productivity, maximum entertainment.",
       "emoji": "😜"
     },
     {
       "category": "Games",
-      "description": "🎮 Mini-games you’ll probably get addicted to, then blame the bot for losing.",
+      "description": "Mini-games that test your brain, luck, or both.",
       "emoji": "🕹️"
     },
     {
       "category": "Economy",
-      "description": "💰 Touch virtual grass. Earn coins, get rich, still broke IRL.",
+      "description": "Fake money, real addiction. Grind now, still broke in real life.",
       "emoji": "💸"
     }
   ],
@@ -51,8 +51,8 @@
         "trigger": "help",
         "slash": "help",
         "meta": {
-          "shortDescription": "😵‍💫 You seriously need help already? Fine.",
-          "longDescription": "Displays a list of all available commands along with their descriptions, so you can easily understand what the bot can do and how to use each command.",
+          "shortDescription": "Lost already? This will fix that.",
+          "longDescription": "Shows all available commands with clear descriptions so you know what the bot can do and how to use each command.",
           "usage": ["/help"],
           "cooldown": 10
         },
@@ -63,8 +63,8 @@
         "trigger": "botinfo",
         "slash": "botinfo",
         "meta": {
-          "shortDescription": "🤖 Wanna know about me? Of course you do.",
-          "longDescription": "Displays information about the bot — uptime, ping, server count, and more. Basically, everything you didn’t ask for but I’ll brag about anyway.",
+          "shortDescription": "Stats, numbers, and unnecessary flexing.",
+          "longDescription": "Displays information about the bot such as uptime, ping, server count, and other technical details.",
           "usage": ["/botinfo"],
           "cooldown": 15
         },
@@ -75,8 +75,8 @@
         "trigger": "profile",
         "slash": "profile",
         "meta": {
-          "shortDescription": "📊 Check your profile — stats, progress, and more.",
-          "longDescription": "Shows your full profile including game statistics, coins, streaks, wins/losses, and any other bot-related data you've accumulated.",
+          "shortDescription": "View your stats and progress.",
+          "longDescription": "Shows your full bot profile including coins, streaks, game statistics, wins, losses, and other accumulated data.",
           "usage": ["/profile"],
           "cooldown": 20
         },
@@ -89,8 +89,8 @@
         "trigger": "urban",
         "slash": "urban",
         "meta": {
-          "shortDescription": "📚 Urban Dictionary, but sassier.",
-          "longDescription": "Fetches the top definition for a word or phrase from Urban Dictionary and shows it in a fancy embed. Perfect for when someone says something you *pretend* to understand.",
+          "shortDescription": "Urban Dictionary, minus the effort.",
+          "longDescription": "Fetches the top Urban Dictionary definition for a word or phrase and displays it in an embed.",
           "usage": ["/urban <word>"],
           "cooldown": 30
         },
@@ -101,8 +101,8 @@
         "trigger": "hall",
         "slash": "hall-of-frame",
         "meta": {
-          "shortDescription": "🖼️ The bot’s core memories. Touch grass responsibly.",
-          "longDescription": "Displays a rotating gallery of iconic moments, inside jokes, legendary users, cursed screenshots, and unforgettable bot memories. Basically a museum nobody asked for.",
+          "shortDescription": "A collection of unforgettable moments.",
+          "longDescription": "Displays a rotating gallery of iconic moments, inside jokes, memorable users, and notable bot history.",
           "usage": ["/hall-of-frame"],
           "cooldown": 20
         },
@@ -115,8 +115,8 @@
         "trigger": "guess",
         "slash": "guess",
         "meta": {
-          "shortDescription": "🔍 Guess the BDFD function from a clue!",
-          "longDescription": "A mini-game where you get a clue and must guess the correct BDFD function. Great for testing your BDFD knowledge and earning bragging rights.",
+          "shortDescription": "Guess the BDFD function from a clue.",
+          "longDescription": "You are given a clue and must identify the correct BDFD function.",
           "usage": ["/guess"],
           "cooldown": 60
         },
@@ -127,8 +127,8 @@
         "trigger": "scramble",
         "slash": "scramble",
         "meta": {
-          "shortDescription": "🔀 Unscramble a BDFD function name.",
-          "longDescription": "Shows a scrambled BDFD function from the official function tag list, and you have to guess which function it is.",
+          "shortDescription": "Unscramble a BDFD function name.",
+          "longDescription": "A scrambled BDFD function name is shown and you must guess the correct function.",
           "usage": ["/scramble"],
           "cooldown": 60
         },
@@ -139,8 +139,8 @@
         "trigger": "cf",
         "slash": "coinflip",
         "meta": {
-          "shortDescription": "🪙 Flip multiple fair coins. More coins = better payout.",
-          "longDescription": "Flip multiple unbiased coins at once. Win if the majority matches your chosen side. Using more coins increases the payout multiplier, starting from 0.8×.",
+          "shortDescription": "Flip coins and test your luck.",
+          "longDescription": "Flip multiple fair coins at once. You win if the majority matches your chosen side. More coins increase the payout multiplier starting from 0.8x.",
           "usage": ["/coinflip <coins> <side:heads/tails> <bet>"],
           "cooldown": 15
         },
@@ -153,8 +153,8 @@
         "trigger": "daily",
         "slash": "daily",
         "meta": {
-          "shortDescription": "🎁 Free coins. Don’t forget tomorrow.",
-          "longDescription": "Claim your daily coin reward. Come back every 24 hours to maintain your streak and stack that virtual cash.",
+          "shortDescription": "Claim your daily coins.",
+          "longDescription": "Claim a daily coin reward every 24 hours and maintain your streak to earn more over time.",
           "usage": ["/daily"],
           "cooldown": 86400
         },
@@ -165,8 +165,8 @@
         "trigger": "lb",
         "slash": "leaderboard",
         "meta": {
-          "shortDescription": "🏆 Flex the rankings — pick your poison.",
-          "longDescription": "Displays different global leaderboards based on the selected type. Compare players by total coins, total daily claims, or longest daily streaks.",
+          "shortDescription": "See who is on top.",
+          "longDescription": "Displays global leaderboards based on coins, daily claims, or daily streaks.",
           "usage": ["/leaderboard <type:coins/daily-days/daily-streak>"],
           "cooldown": 10
         },
